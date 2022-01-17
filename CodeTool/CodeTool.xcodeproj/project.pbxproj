@@ -7,21 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		090B920D2795534400A9F828 /* codetool.docc in Sources */ = {isa = PBXBuildFile; fileRef = 090B920C2795534400A9F828 /* codetool.docc */; };
-		090B920E2795534400A9F828 /* codetool.h in Headers */ = {isa = PBXBuildFile; fileRef = 090B920B2795534400A9F828 /* codetool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		090B921627955D8500A9F828 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B921527955D8500A9F828 /* Alert.swift */; };
-		090B921727955EBF00A9F828 /* Alert.swift in Headers */ = {isa = PBXBuildFile; fileRef = 090B921527955D8500A9F828 /* Alert.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		090B92482795656000A9F828 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B92472795656000A9F828 /* Alert.swift */; };
+		090B92492795682100A9F828 /* Alert.swift in Headers */ = {isa = PBXBuildFile; fileRef = 090B92472795656000A9F828 /* Alert.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		090B92082795534400A9F828 /* codetool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = codetool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		090B920B2795534400A9F828 /* codetool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = codetool.h; sourceTree = "<group>"; };
-		090B920C2795534400A9F828 /* codetool.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = codetool.docc; sourceTree = "<group>"; };
-		090B921527955D8500A9F828 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		090B923D279564DC00A9F828 /* CodeTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodeTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		090B92472795656000A9F828 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		090B92052795534400A9F828 /* Frameworks */ = {
+		090B923A279564DC00A9F828 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,88 +27,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		090B91FE2795534400A9F828 = {
+		090B9233279564DC00A9F828 = {
 			isa = PBXGroup;
 			children = (
-				090B920A2795534400A9F828 /* codetool */,
-				090B92092795534400A9F828 /* Products */,
+				090B923F279564DC00A9F828 /* CodeTool */,
+				090B923E279564DC00A9F828 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		090B92092795534400A9F828 /* Products */ = {
+		090B923E279564DC00A9F828 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				090B92082795534400A9F828 /* codetool.framework */,
+				090B923D279564DC00A9F828 /* CodeTool.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		090B920A2795534400A9F828 /* codetool */ = {
+		090B923F279564DC00A9F828 /* CodeTool */ = {
 			isa = PBXGroup;
 			children = (
-				090B920B2795534400A9F828 /* codetool.h */,
-				090B921427955D5600A9F828 /* Alert */,
-				090B920C2795534400A9F828 /* codetool.docc */,
+				090B92472795656000A9F828 /* Alert.swift */,
 			);
-			path = codetool;
-			sourceTree = "<group>";
-		};
-		090B921427955D5600A9F828 /* Alert */ = {
-			isa = PBXGroup;
-			children = (
-				090B921527955D8500A9F828 /* Alert.swift */,
-			);
-			path = Alert;
+			path = CodeTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		090B92032795534400A9F828 /* Headers */ = {
+		090B9238279564DC00A9F828 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090B920E2795534400A9F828 /* codetool.h in Headers */,
-				090B921727955EBF00A9F828 /* Alert.swift in Headers */,
+				090B92492795682100A9F828 /* Alert.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		090B92072795534400A9F828 /* codetool */ = {
+		090B923C279564DC00A9F828 /* CodeTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 090B92112795534400A9F828 /* Build configuration list for PBXNativeTarget "codetool" */;
+			buildConfigurationList = 090B9244279564DC00A9F828 /* Build configuration list for PBXNativeTarget "CodeTool" */;
 			buildPhases = (
-				090B92032795534400A9F828 /* Headers */,
-				090B92042795534400A9F828 /* Sources */,
-				090B92052795534400A9F828 /* Frameworks */,
-				090B92062795534400A9F828 /* Resources */,
+				090B9238279564DC00A9F828 /* Headers */,
+				090B9239279564DC00A9F828 /* Sources */,
+				090B923A279564DC00A9F828 /* Frameworks */,
+				090B923B279564DC00A9F828 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = codetool;
-			productName = codetool;
-			productReference = 090B92082795534400A9F828 /* codetool.framework */;
+			name = CodeTool;
+			productName = CodeTool;
+			productReference = 090B923D279564DC00A9F828 /* CodeTool.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		090B91FF2795534400A9F828 /* Project object */ = {
+		090B9234279564DC00A9F828 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					090B92072795534400A9F828 = {
+					090B923C279564DC00A9F828 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
-			buildConfigurationList = 090B92022795534400A9F828 /* Build configuration list for PBXProject "codetool" */;
+			buildConfigurationList = 090B9237279564DC00A9F828 /* Build configuration list for PBXProject "CodeTool" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,18 +106,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 090B91FE2795534400A9F828;
-			productRefGroup = 090B92092795534400A9F828 /* Products */;
+			mainGroup = 090B9233279564DC00A9F828;
+			productRefGroup = 090B923E279564DC00A9F828 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				090B92072795534400A9F828 /* codetool */,
+				090B923C279564DC00A9F828 /* CodeTool */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		090B92062795534400A9F828 /* Resources */ = {
+		090B923B279564DC00A9F828 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -141,19 +127,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		090B92042795534400A9F828 /* Sources */ = {
+		090B9239279564DC00A9F828 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090B921627955D8500A9F828 /* Alert.swift in Sources */,
-				090B920D2795534400A9F828 /* codetool.docc in Sources */,
+				090B92482795656000A9F828 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		090B920F2795534400A9F828 /* Debug */ = {
+		090B9242279564DC00A9F828 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +202,7 @@
 			};
 			name = Debug;
 		};
-		090B92102795534400A9F828 /* Release */ = {
+		090B9243279564DC00A9F828 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,11 +260,13 @@
 			};
 			name = Release;
 		};
-		090B92122795534400A9F828 /* Debug */ = {
+		090B9245279564DC00A9F828 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -293,23 +280,28 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ynby.codetool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ynby.CodeTool;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		090B92132795534400A9F828 /* Release */ = {
+		090B9246279564DC00A9F828 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -323,8 +315,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ynby.codetool;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ynby.CodeTool;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -337,25 +331,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		090B92022795534400A9F828 /* Build configuration list for PBXProject "codetool" */ = {
+		090B9237279564DC00A9F828 /* Build configuration list for PBXProject "CodeTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				090B920F2795534400A9F828 /* Debug */,
-				090B92102795534400A9F828 /* Release */,
+				090B9242279564DC00A9F828 /* Debug */,
+				090B9243279564DC00A9F828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		090B92112795534400A9F828 /* Build configuration list for PBXNativeTarget "codetool" */ = {
+		090B9244279564DC00A9F828 /* Build configuration list for PBXNativeTarget "CodeTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				090B92122795534400A9F828 /* Debug */,
-				090B92132795534400A9F828 /* Release */,
+				090B9245279564DC00A9F828 /* Debug */,
+				090B9246279564DC00A9F828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 090B91FF2795534400A9F828 /* Project object */;
+	rootObject = 090B9234279564DC00A9F828 /* Project object */;
 }
