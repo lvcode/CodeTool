@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		090B920D2795534400A9F828 /* codetool.docc in Sources */ = {isa = PBXBuildFile; fileRef = 090B920C2795534400A9F828 /* codetool.docc */; };
 		090B920E2795534400A9F828 /* codetool.h in Headers */ = {isa = PBXBuildFile; fileRef = 090B920B2795534400A9F828 /* codetool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		090B921627955D8500A9F828 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B921527955D8500A9F828 /* Alert.swift */; };
+		090B921727955EBF00A9F828 /* Alert.swift in Headers */ = {isa = PBXBuildFile; fileRef = 090B921527955D8500A9F828 /* Alert.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		090B92082795534400A9F828 /* codetool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = codetool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		090B920B2795534400A9F828 /* codetool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = codetool.h; sourceTree = "<group>"; };
 		090B920C2795534400A9F828 /* codetool.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = codetool.docc; sourceTree = "<group>"; };
+		090B921527955D8500A9F828 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +51,18 @@
 			isa = PBXGroup;
 			children = (
 				090B920B2795534400A9F828 /* codetool.h */,
+				090B921427955D5600A9F828 /* Alert */,
 				090B920C2795534400A9F828 /* codetool.docc */,
 			);
 			path = codetool;
+			sourceTree = "<group>";
+		};
+		090B921427955D5600A9F828 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				090B921527955D8500A9F828 /* Alert.swift */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				090B920E2795534400A9F828 /* codetool.h in Headers */,
+				090B921727955EBF00A9F828 /* Alert.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090B921627955D8500A9F828 /* Alert.swift in Sources */,
 				090B920D2795534400A9F828 /* codetool.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,12 +287,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.0.1;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ynby.codetool;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -301,6 +317,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
